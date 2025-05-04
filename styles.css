@@ -178,3 +178,123 @@ p {
     margin: 10px 0;
     line-height: 1.6;
 }
+
+/* Contact Section */
+#contact {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    font-size: 28px;
+    color: #343a40; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.contact-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contact-form .btn {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.contact-form .btn:hover {
+    background-color: #1ebe57; /* Darker green on hover */
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 48px;
+    height: 48px;
+    transition: transform 0.3s ease;
+}
+
+.social-links img:hover {
+    transform: scale(1.1); /* Slight zoom on hover */
+}
+
+.whatsapp-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.whatsapp-form label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: #495057;
+}
+
+.whatsapp-form input,
+.whatsapp-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.whatsapp-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.whatsapp-form .btn {
+    display: inline-block;
+    background-color: #25d366; /* WhatsApp green */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.whatsapp-form .btn:hover {
+    background-color: #1ebe57; /* Darker green on hover */
+}
