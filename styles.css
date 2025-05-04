@@ -34,7 +34,7 @@ p {
 
 /* Navbar Section */
 #navbar {
-    background-color: hsl(154, 82%, 51%); /* Updated blue color */
+    background-color: hwb(35 57% 8%); /* Updated blue color */
     color: #01070d;
     position: sticky;
     top: 0;
@@ -70,8 +70,8 @@ p {
 
 /* Hero Section */
 #hero {
-    background-color: hsl(91, 91%, 5%); /* Updated blue color */
-    color: #F8F9FA;
+    background-color: hsl(92, 46%, 84%); /* Updated blue color */
+    color: #020b14;
     padding: 100px 20px;
 }
 
@@ -91,7 +91,7 @@ p {
 }
 
 .project-card {
-    background-color: #fff;
+    background-color: #9bd7e196;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -147,4 +147,34 @@ p {
     display: block;
     margin-left: auto;
     margin-right: auto; /* Centers the image */
+}
+
+/* Achievements Section */
+#achievements {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#achievements h2 {
+    font-size: 28px;
+    color: #343a40; /* Dark text color */
+    margin-bottom: 20px;
+}
+
+.achievement-box {
+    background-color: #81f4d9ae; /* White box background */
+    border: 1px solid #dee2e6; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 800px;
+    margin: 0 auto; /* Center the box */
+    text-align: left; /* Align text to the left */
+    color: #495057; /* Neutral text color */
+}
+
+.achievement-box p {
+    margin: 10px 0;
+    line-height: 1.6;
 }
